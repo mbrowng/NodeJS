@@ -1,0 +1,14 @@
+{
+  "name": "evaluate",
+  "version": "1.0.0",
+  "description": "Evaluate an equation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "evaluate"
+  ],
+  "author": "Mauricio Brown",
+  "license": "ISC"
+}
