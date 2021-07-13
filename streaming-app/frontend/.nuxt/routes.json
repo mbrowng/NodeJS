@@ -1,0 +1,16 @@
+[
+  {
+    "name": "player-name",
+    "path": "/player/:name?",
+    "component": "D:\\\\Proyectos\\\\NodeJS\\\\streaming-app\\\\frontend\\\\pages\\\\player\\\\_name.vue",
+    "chunkName": "pages/player/_name",
+    "_name": "_d8976e10"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Proyectos\\\\NodeJS\\\\streaming-app\\\\frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_0117ce61"
+  }
+]

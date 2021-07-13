@@ -1,0 +1,16 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "keywords": [],
+  "author": "mbrowng",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "^2.15.6"
+  }
+}
