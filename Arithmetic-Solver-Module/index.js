@@ -1,14 +1,14 @@
 
 
 exports.evaluate = function(req,res)  {
-    var lineReader = require('readline').createInterface({
-        // file.in is the name of the file which contains the equation to evaluate.
-        input: require('fs').createReadStream(req)//'file.in')
-    });
+	var lineReader = require('readline').createInterface({
+		// file.in is the name of the file which contains the equation to evaluate.
+		input: require('fs').createReadStream(req)//'file.in')
+	});
       
-    lineReader.on('line', function (line) {
-        var result = evaluate(line.toString().trim().replace(/\{|\[/g, '(').replace(/\}|\]/g, ')'));
-        console.log("Result: " + line.toString().trim() + " =  " + result);
+	lineReader.on('line', function (line) {
+		var result = evaluate(line.toString().trim().replace(/\{|\[/g, '(').replace(/\}|\]/g, ')'));
+		console.log("Result: " + line.toString().trim() + " =  " + result);
     });
 
     /**
@@ -56,7 +56,7 @@ exports.evaluate = function(req,res)  {
         }
       
         /**
-         * This handle multiplication and division
+         * This handles multiplication and division
          * @param {*} eq 
          * @returns 
          */
@@ -72,7 +72,7 @@ exports.evaluate = function(req,res)  {
         }
       
         /**
-         * This handle sum and substracts
+         * This handles sum and substracts
          * @param {*} eq 
          * @returns 
          */
@@ -90,7 +90,7 @@ exports.evaluate = function(req,res)  {
         }
       
         /**
-         * This handle the return call
+         * This handles the return call
          * @param {*} errObject 
          * @param {*} result 
          * @returns 
